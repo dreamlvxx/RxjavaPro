@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/rxjavapro/FeakObservable.kt">
           <value>
             <set />
@@ -33,6 +38,51 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/ex/photo/fragments/PhotoViewFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/exchange/service/EasSyncTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/browse/ConversationItemView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/browse/SendersView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/ui/AbstractMailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/ui/ChatListView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/ui/ConversationListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/ui/SecureConversationViewController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/utils/Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/workspace/Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/mail/ui/AbstractActivityController.java">
           <value>
             <set />
@@ -44,6 +94,16 @@
           </value>
         </entry>
         <entry key="D:/workspace/Emial_Oppo/email/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/git-project/ContentProviderDemo/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/workspace/git-project/ContentProviderDemo/app/src/main/java/com/example/contentproviderdemo/MainActivity.java">
           <value>
             <set />
           </value>

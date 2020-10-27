@@ -1,21 +1,21 @@
 package com.example.rxjavapro
 
 class FeakObservable {
-    var observerable: IObservable?
+    var observerable: IObservable? = null
 
     constructor(obserble: IObservable) {
         this.observerable = obserble
     }
 
     companion object{
-        fun create(realObserver: IObservable): FeakObservable {
-            return FeakObservable(realObserver)
+        fun create(obser: IObservable): FeakObservable {
+            return FeakObservable(obser)
         }
 
-//        fun map() : FeakObservable{
-//            val
-//            return FeakObservable(realObserver)
-//        }
+    }
+
+    fun map() : FeakObservable{
+        return FeakObservable(MapObservable(this.observerable!!))
     }
 
     fun setObserver(observer: IObserver) {

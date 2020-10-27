@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
             override fun setObserver(observer: IObserver) {
                 observer.onNext("this is message")
             }
-        }).setObserver(object : IObserver {
+        })
+                .map()
+                .setObserver(object : IObserver {
             override fun onNext(content: String?) {
                 Log.e("xxx","content is $content")
             }
