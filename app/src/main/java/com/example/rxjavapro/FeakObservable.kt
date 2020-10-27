@@ -18,6 +18,14 @@ class FeakObservable {
         return FeakObservable(MapObservable(this.observerable!!))
     }
 
+    fun excuOnIO() : FeakObservable{
+        return FeakObservable(ExcutorOnIOObservable(this.observerable!!))
+    }
+
+    fun recvOnMain() :FeakObservable{
+        return FeakObservable(ReceiveOnMain(this.observerable!!))
+    }
+
     fun setObserver(observer: IObserver) {
         observer.onSubscrib()
         this.observerable?.setObserver(observer)

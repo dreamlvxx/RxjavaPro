@@ -11,12 +11,16 @@ class MainActivity : AppCompatActivity() {
 
         FeakObservable.create(object : IObservable {
             override fun setObserver(observer: IObserver) {
+                Log.i("xxx", "上游线程:${Thread.currentThread().name}")
                 observer.onNext("this is message")
             }
         })
                 .map()
+                .excuOnIO()
+                .recvOnMain()
                 .setObserver(object : IObserver {
             override fun onNext(content: String?) {
+                Log.i("xxx", "下游线程:${Thread.currentThread().name}")
                 Log.e("xxx","content is $content")
             }
 
